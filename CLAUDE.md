@@ -20,5 +20,5 @@ When creating or modifying agents:
     - `<role>` is the primary role of the agent within a given `<category>` and `<specialization>`, and can be one of the following:
         - `architect` - an architect who can create or reviewing architecture of the system
         - `developer` - a developer who understands system requirements (both from functional and technical perspective, as well as architecture designs) and writes/updates code from these requirements
-        - `reviewer` - a code-review-tailored role specifically for reviewing and verifying code/documentation adheres to best practices in a given reviewer's `<category>` and `<specialization>`
+        - `reviewer` - a code-review-tailored role specifically for reviewing and verifying code/documentation is correct according to system/architecture designs, functional/technical requirements, and adheres to best practices in within given reviewer's `<category>` and `<specialization>`
 
