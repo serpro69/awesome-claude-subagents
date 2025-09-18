@@ -18,7 +18,7 @@ When creating or modifying agents:
     - `<category>` is the parent directory name of the agent markdown file, for example agents in `agents/cloud/gcp` would have a category name `gcp`
     - `<specialization>` is a particular expertise area the agent has. For example, it can be a tech-stack like `k8s` (where the agent's main specialization is kubernetes within the given `<category>`), or  broader area like `finops` or `security` (where an agent's main specialization is within FinOps/Security domain in the given `<category>`) 
     - `role` is the primary role of the agent within a given `<category>` and `<specialization>`, and can be one of the following:
-        - `architect` - a role tailored to creating or reviewing architecture designs 
-        - `developer` - a developer who can write/update code and review other agents' code
-        - `reviewer` - a code-review-tailored role specifically for reviewing code/documentation
+        - `architect` - an architect who can create or reviewing architecture of the system
+        - `developer` - a developer who understands system requirements (both from functional and technical perspective, as well as architecture designs) and writes/updates code from these requirements
+        - `reviewer` - a code-review-tailored role specifically for reviewing and verifying code/documentation adheres to best practices in a given reviewer's `<category>` and `<specialization>`
 
